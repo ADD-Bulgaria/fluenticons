@@ -1,10 +1,15 @@
 {
-  "name": "fluenticons",
+  "name": "@add-bulgaria/fluenticons",
   "private": false,
-  "version": "0.0.1",
+  "version": "1.0.1",
   "type": "module",
   "main": "./src/index.ts",
   "types": "./src/index.ts",
+  "author": {
+    "name": "ADD-Bulgaria",
+    "url": "https://www.add-bg.com"
+  },
+  "license": "MIT",
   "files": [
     "src"
   ],
@@ -14,7 +19,6 @@
     "lint": "eslint ."
   },
   "dependencies": {
-    "fluenticons": "file:../fluenticons",
     "prism-react-renderer": "^2.4.1",
     "react-colorful": "^5.6.1"
   },

@@ -77,9 +77,7 @@ function generateComponentCode(
 
   const variantType = availableVariants.map(v => `'${v}'`).join(' | ');
 
-  return `
-import * as React from 'react';
-import type { ${ICON_TYPE_NAME} } from '${iconTypePath}';
+  return `import type { ${ICON_TYPE_NAME} } from '${iconTypePath}';
 
 const svgContent = {
   ${svgContentMapEntries.join(',\n  ')}
